@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="main-container">
+        <p id="lOg"></p>
+    <H1>Grading Form</H1>
+    
+    <div class="container">
+        
+        <section id="form">
+            <div class="form-group">
+                <div class="form1" >
+                   <form id="myForm">
+                    <input type="number"  id="number1" placeholder="Enter your grade">
+                    <label for="number1">Mathematics</label><br><br>
+                    <input type="number"  id="number2" placeholder="Enter your grade">
+                    <label for="number2">Science</label><br><br>
+                    <input type="number" id="number3" placeholder="Enter your grade">
+                    <label for="number3"> Araling Panlipunan</label><br><br>
+                    <input type="number"  id="number4" placeholder="Enter your grade">
+                    <label for="number4">English </label><br><br>
+                    <input type="number"  id="number5" placeholder="Enter your grade">
+                    <label for="number5"> Rizal's life</label><br><br>
+                    <input type="number" id="number6" placeholder="Enter your grade">
+                    <label for="number6"> Database Management</label><br><br>
+                    <input type="number" id="number7" placeholder="Enter your grade">
+                    <label for="number7">Sociology</label><br><br>
+                    <input type="number"  id="number8" placeholder="Enter your grade">
+                    <label for="number8"> Economics</label>
+                
+                </div> 
+                <div id="greetings"></div>
+            </form>
+            </div>
+        </section>
+
+
+        <section id="button1">
+            <button type ="button" onclick="calculate()" class="btn1">Compute</button>
+        </section>
+        <section id="button2">
+            <button type ="button" onclick="Reset()"  class="btn2">Reset </button>
+        </section>
+        
+       
+        <section id="form3">
+            
+            <div class="Total-form">
+                <h3>Total</h3>
+                
+                    <div class="Total">
+                        
+                            <p id="tOt" ></p> 
+                        
+                    </div>
+                
+            </div>
+            <div class="Average-form">
+                <h3>Average</h3>
+                <div class="Average">
+                    <p id="avEr"></p>
+                </div>
+                
+            </div>
+            <div class="Grade-form">
+                <h3>Grade</h3>
+                <div class="Grade">
+                    <p id="gRa"> </p> 
+                </div>
+            </div>
+        
+        </section>
+        
+       
+    </div>
+    </div>
+
+    <script src="calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 151, 134);
+    line-height: 1.2rem;
+}
+#main-container h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#main-container{
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 70vh;
+    padding-top: 70px;
+    background-color: red;
+    background-image: linear-gradient(red,yellow,green);
+}
+.container{
+    
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+   
+}
+#form{
+    background-color: hsl(180, 70%, 76%);
+    
+    padding: 20px 15px 0px 10px;
+    border-radius: 10px;
+    border: 2px black ;
+
+}
+
+.btn1{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black 1px ;
+    background-color: antiquewhite;
+}
+.btn1:hover{
+    background-color: cadetblue;
+}
+.btn2{
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black 1px;
+    background-color: antiquewhite;
+}
+.btn2:hover{
+    background-color: darkcyan;
+}
+
+
+
+.Total-form h3{
+    background-color: aqua;
+    border: black 2px solid;
+    width: 15vh;
+    padding-left: 40px;
+}
+.Total{
+    border: black 2px solid;
+    border-top: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    height: 10vh;
+    background-color: rgb(227, 227, 239);
+}
+.Average-form h3{
+    background-color: aqua;
+    border: black 2px solid;
+    width: 15vh;
+    padding-left: 30px;
+}
+
+.Average{
+    border: black 2px solid;
+    border-top: none;
+    margin: 0px;
+    margin-bottom: 10px;
+   height: 10vh;
+    background-color: rgb(227, 227, 239);
+}
+.Grade-form h3{
+    background-color: aqua;
+    border: black 2px solid;
+    padding-left: 40px;
+    width: 15vh;
+}
+.Grade{
+    border: black 2px solid;
+    border-top: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    background-color: rgb(227, 227, 239);
+   height: 10vh;
+}
+
+ #tOt{
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 5vh;
+}
+#avEr{
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 5vh;
+}
+#gRa{
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 1.85vh;
+    font-weight: bold;
+}
+#greetings{
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 4vh;
+    
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(100, 27, 93);
+    
+}
+#lOg{
+    margin-left: 50px;
+    font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border: solid black 2px;
+    width: 50vh;
+}
